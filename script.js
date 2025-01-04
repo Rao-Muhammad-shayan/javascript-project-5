@@ -112,41 +112,78 @@
 // console.log(`Even Counting is ${EvenString}`);
 // console.log(`Odd Counting is ${OddString}`);
 
-function Bakery(){
-    var A=["cake","apple pie","cookies","chips","pastries","patties"]
-    var input=document.getElementById("item")
-    var item=input.value
-    var image=document.getElementById("image")
-    var h1=document.getElementById("heading")
-    if(item==A.includes("cake")){
-       
-        image.src="Naked-Cake-Recipe-Card.jpg"
-        image.style.display="block"
-        h1.innerHTML="Cake is available at index 0"
-    }else if(item==A.includes("apple pie")){
-       
-        image.src="download.jpeg"
-        image.style.display="block"
-        h1.innerHTML="Cake is available at index 1"
-    }
-    else if(item==A.includes("cookies")){
-       
-        image.src="images.jpeg"
-        image.style.display="block"
-        h1.innerHTML="Cake is available at index 1"
-    }
-    else if(item==A.includes("chips")){
-       
-        image.src=""
-        image.style.display="block"
-        h1.innerHTML="Cake is available at index 1"
-    }
-    else if(item==A.includes("pastries")){
-       
-        image.src=""
-        image.style.display="block"
-        h1.innerHTML="Cake is available at index 1"
-    }
-       
-   
-}
+// function Bakery() {
+//     var A = ["cake", "apple pie", "cookies", "chips", "pastries", "patties"];
+//     var input = document.getElementById("item");
+//     var item = input.value.toLowerCase(); // Convert input to lowercase for case-insensitive comparison
+//     var image = document.getElementById("image");
+//     var h1 = document.getElementById("heading");
+
+//     if (A.includes(item)) {
+//         var index = A.indexOf(item); // Get the index of the item in the array
+//         h1.innerHTML = item + " is available at index " + index;
+
+//         // Set the image source based on the item
+//         switch (item) {
+//             case "cake":
+//                 image.src = "Naked-Cake-Recipe-Card.jpg";
+//                 break;
+//             case "apple pie":
+//                 image.src = "download.jpeg";
+//                 break;
+//             case "cookies":
+//                 image.src = "images.jpeg";
+//                 break;
+//             case "chips":
+//                 image.src = "images (1).jpeg";
+//                 break;
+//             case "pastries":
+//                 image.src = "item-642f5b5885a38.jpg";
+//                 break;
+//                 case "patties":
+//                     image.src="download (1).jpeg"
+//                     break;
+
+//         }
+//         image.style.display = "block";
+//         image.style.width="50%"
+//         // Show the image
+//     } else {
+//         h1.innerHTML = "This item is not available at any index in our bakery";
+//         image.style.display = "none"; // Hide the image if the item is not found
+//     }
+// }
+
+// let A=[24,53,78,91,12]
+//  let minArr=A[0];
+//  for (let i = 0; i < A.length; i++){
+//    if (A[i] < minArr) {
+//     minArr=A[i]
+//    }
+// }
+//     console.log(`${minArr}is a smallest number`)
+
+// let a=5;
+// let b=""
+// for(i=1;i<=20;i++){
+// b+=a*i+" "
+// }
+
+// console.log(b)
+
+// Id generator
+// let Arr = [1, 9, 7, 8, 0];
+// let Qid = "";
+// for (let i = 0; i < Arr.length; i++) {
+//     let randomIndex = Math.floor(Math.random() * Arr.length);
+//     Qid += Arr[randomIndex]; // Append the randomly selected element to Qid
+    
+// }
+// console.log(Qid)
+// if(Qid<9000){
+//     console.log("Student of Modern web and mobile app development")
+// }else if(Qid<=19000){
+//     console.log("Student of Flutter Development")
+// }else{
+//     console.log("Student of AI ")
+// }
